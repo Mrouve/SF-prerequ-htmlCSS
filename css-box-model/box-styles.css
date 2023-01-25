@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* * == universal selector ; here used to remove default css from browser and avoid white lines on top */
+
+h1, p {
+  background-color: #DDE0E3;    /* Light gray */
+}
+
+em, strong {
+  background-color: #B2D6FF;    /* Light blue */
+}
+
+h1 {
+  padding: 50px;
+  border-bottom: 1px solid #5D6063;    /* size - style - color ; all or -bottom -top -left -right */
+}
+
+/*
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+*/
+
+/*
+p {
+  padding: 20px 10px;
+}
+*/
+
+p {
+  padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+strong {
+  margin: 50px;
+} /* inline elements ignore top and bottom margins */
+
+div {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+  box-sizing: border-box; /* the indicate width correspond to the border box. Default : content box */
+}
+
+body {
+  text-align: center;
+}
