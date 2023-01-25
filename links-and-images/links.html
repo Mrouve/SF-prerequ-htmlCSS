@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Links</title>
+</head>
+<body>
+  <h1>Links</h1>
+  <p>This example is about links and <a href='images.html'>images</a>.</p>
+
+  <p>This particular page is about links! There are three kinds of links:</p>
+  <ul>
+      <li>Absolute links, like to
+          <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank">Mozilla
+              Developer Network</a>, which is a very good resource for web
+          developers.</li>
+      <!-- Absolute links can be tricky - good practice is to use them mostly for directing towards another website -->
+      <!-- To open in a new tab -> target='_blank' -->
+
+      <li>Relative links, like to our <a href='misc/extras.html'>extras
+          page</a>.</li>
+      <!-- Relative links imply that scheme (https://) & domain name are the current ones. Only path change-->
+      <!-- To access a file in a folder above the current one -> ../../fileName
+      In practice, relative links are best for referring to resources in the same folder-->
+
+      <!-- This won't work for our local HTML files -->
+      <li>Root-relative links, like to the <a href='/'>home page</a> of our website,
+          but those aren't useful to us right now.</li>
+      <!-- Starts by / -->
+
+
+  </ul>
+
+
+</body>
+</html>
